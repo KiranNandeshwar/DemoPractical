@@ -21,6 +21,12 @@ pipeline {
               echo 'Deploying ...'
                 }
                        }
+                       
+         stage ('Destroy') {
+          steps {
+              echo 'Destroying ...'
+                }
+                       }
 
            }
 
